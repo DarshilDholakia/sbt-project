@@ -1,0 +1,148 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t api:0.1.0-SNAPSHOT .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/darshildholakia/Documents/scala_self_practice/sbt-project-attempt/api/target/docker/stage[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:f7681078e996ee6959d79e2060616a092cf01467f48b31241617f8bf255b277a[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 530B 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:f7e261d72c9fb72e1e67531d51856a3d032f7bd3914387f10290a0327227ae2e[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:14e0bc6c3291bf6e9518cae71297359a975961fa3661ed2418806c53bda51bdd[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:7b2bce776e5f5faba3130f28c20fe29ede76e3158bf11bceddf9ebee728e7008[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/5] FROM docker.io/library/openjdk:8@sha256:bda4739c44b15f4a6ef4aa044e032809dd0ced24263c972bb728a0388275548b[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:af839c3b2748eb5a78f34b68b3ed7caaa4418087dcbe881615421676340496c9[0m
+[0m[[0m[31merror[0m] [0m[0m#4 resolve docker.io/library/openjdk:8@sha256:bda4739c44b15f4a6ef4aa044e032809dd0ced24263c972bb728a0388275548b 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:bda4739c44b15f4a6ef4aa044e032809dd0ced24263c972bb728a0388275548b 1.04kB / 1.04kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:2cf6c956fc57c6f28c04162d8b3453ebaa97f71122cee27ae9bab4329bdfc1f8 7.83kB / 7.83kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba 0B / 4.94MB 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:66a3aa831e9566596a148ab3280545c8ae0347936f7283cdfef9f31bba429ae1 1.79kB / 1.79kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 0B / 53.63MB 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 0B / 10.66MB 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:7b2bce776e5f5faba3130f28c20fe29ede76e3158bf11bceddf9ebee728e7008[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 6.72MB 0.5s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/5] FROM docker.io/library/openjdk:8@sha256:bda4739c44b15f4a6ef4aa044e032809dd0ced24263c972bb728a0388275548b[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:af839c3b2748eb5a78f34b68b3ed7caaa4418087dcbe881615421676340496c9[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 5.24MB / 53.63MB 0.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba 1.05MB / 4.94MB 0.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba 2.10MB / 4.94MB 0.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba 3.15MB / 4.94MB 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba 4.94MB / 4.94MB 1.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 1.05MB / 10.66MB 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 0B / 54.67MB 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 8.39MB / 53.63MB 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 2.10MB / 10.66MB 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 3.15MB / 10.66MB 1.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 5.24MB / 10.66MB 1.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 7.34MB / 10.66MB 1.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 3.15MB / 54.67MB 2.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 10.66MB / 10.66MB 2.4s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 0B / 5.42MB 2.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 6.29MB / 54.67MB 2.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 9.44MB / 54.67MB 2.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 11.53MB / 53.63MB 3.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 1.05MB / 5.42MB 3.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 12.58MB / 54.67MB 3.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 2.10MB / 5.42MB 3.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 3.15MB / 5.42MB 3.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 4.19MB / 5.42MB 3.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 15.73MB / 54.67MB 3.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 5.24MB / 5.42MB 3.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 5.42MB / 5.42MB 3.8s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:0d3971bf6f6e2464a1d2bd8645f5667de6af7962283cdf8d4925ba8e2204e744 0B / 209B 3.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 19.92MB / 54.67MB 4.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:0d3971bf6f6e2464a1d2bd8645f5667de6af7962283cdf8d4925ba8e2204e744 209B / 209B 4.2s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 0B / 104.92MB 4.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 26.21MB / 54.67MB 4.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 29.36MB / 54.67MB 4.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 33.55MB / 54.67MB 5.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 37.75MB / 54.67MB 5.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 40.89MB / 54.67MB 5.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 47.19MB / 54.67MB 6.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 7.34MB / 104.92MB 6.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 50.33MB / 54.67MB 7.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 53.48MB / 54.67MB 7.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 13.42MB / 104.92MB 7.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 54.67MB / 54.67MB 7.5s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 18.87MB / 104.92MB 7.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 12.58MB / 53.63MB 8.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 25.17MB / 104.92MB 8.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 31.46MB / 104.92MB 8.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 37.75MB / 104.92MB 9.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 45.09MB / 104.92MB 9.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 51.38MB / 104.92MB 10.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 59.77MB / 104.92MB 11.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 67.11MB / 104.92MB 11.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 75.50MB / 104.92MB 12.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 82.84MB / 104.92MB 12.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 13.63MB / 53.63MB 13.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 89.13MB / 104.92MB 13.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 95.42MB / 104.92MB 13.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 102.76MB / 104.92MB 14.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 104.92MB / 104.92MB 14.4s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 16.78MB / 53.63MB 15.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 19.92MB / 53.63MB 16.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 23.07MB / 53.63MB 16.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 27.26MB / 53.63MB 16.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 31.46MB / 53.63MB 16.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 35.65MB / 53.63MB 17.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 40.89MB / 53.63MB 17.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 44.04MB / 53.63MB 17.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 47.19MB / 53.63MB 17.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 51.38MB / 53.63MB 18.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 53.63MB / 53.63MB 18.4s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:83d5dcfea08e6927083bc886bf182fc39d87bb04b54b63002ac0c4c0b9aab682 1.2s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:45cfa86b7b1aca6d694057e4d42ee1440527f41c00b9e577df729244380c9eba 0.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:5c79b19335f27cc78840bf9159e875322f3252ac06113c73756f9d4fba905f9b 0.2s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:350ecaf08eac09037b05465ab97a1b8f7bc9b7a9b1fcef900dedd7dba9bbcf4d 1.4s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:407c0a935588e2739ecb408509326d6d25e59a373d13cbab359a43902f17dc33 0.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:0d3971bf6f6e2464a1d2bd8645f5667de6af7962283cdf8d4925ba8e2204e744 done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312[0m
+[0m[[0m[31merror[0m] [0m[0m#4 extracting sha256:f8601f4a7113a6c330b14a96398fb546bca1f73a9514f673dcb681c0a86d0312 1.9s done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 23.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [stage-1 2/4] RUN id -u demiourgos728 2> /dev/null || (( getent group 0 || groupadd -g 0 root ) && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 )[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:7807b176806d75f4bf8618809e4bb27e6d2a2200a84ae5ed57e3d628e1073bb2[0m
+[0m[[0m[31merror[0m] [0m[0m#5 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:8c4e81c46352634268ee9d061dc08c8ea8d92f698c1e40869d7dcb200ef6d475[0m
+[0m[[0m[31merror[0m] [0m[0m#7 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/5] COPY opt /opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:642151014fb78905940497b1978d0fe82b77823a40ae391b85af5a4843fc44d9[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [stage-1 2/4] RUN id -u demiourgos728 2> /dev/null || (( getent group 0 || groupadd -g 0 root ) && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 )[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:7807b176806d75f4bf8618809e4bb27e6d2a2200a84ae5ed57e3d628e1073bb2[0m
+[0m[[0m[31merror[0m] [0m[0m#5 0.463 root:x:0:[0m
+[0m[[0m[31merror[0m] [0m[0m#5 DONE 0.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [stage-1 3/4] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:c9702472f9dc84227e85768dbc371b14aa024cc06ad4b899bf1381a9cccc19a0[0m
+[0m[[0m[31merror[0m] [0m[0m#6 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/5] RUN ["chmod", "-R", "u=rX,g=rX", "/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:26ef594377b2f98d8b8b051917e83233631e41d1e33e9636d3f1675a033f6416[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/5] RUN ["chmod", "u+x,g+x", "/opt/docker/bin/api"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:51c781a7c0ea11884400737bcdadf960bb157dea7a24587232cbc0095c2d4416[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 0.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage-1 4/4] COPY --from=stage0 --chown=demiourgos728:root /opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:a39f7decc8256bb3bae9bfdd4dab32c37c5a08420749308cd2447798a77885af[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#13 exporting layers 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#13 writing image sha256:417322530b873d7222b3212e950718d76e12444eb879e9fa53dd5ee80fd4618d[0m
+[0m[[0m[31merror[0m] [0m[0m#13 writing image sha256:417322530b873d7222b3212e950718d76e12444eb879e9fa53dd5ee80fd4618d done[0m
+[0m[[0m[31merror[0m] [0m[0m#13 naming to docker.io/library/api:0.1.0-SNAPSHOT done[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image api with tags [0.1.0-SNAPSHOT][0m

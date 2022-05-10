@@ -1,0 +1,70 @@
+1652092371146:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652098733028:reload
+1652098756909:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652098765450:sbt
+1652098778255:;reload ;compil
+1652098781318:;reload ;compile
+1652098809212:projects
+1652099855708:project calculators
+1652099904650:reload
+1652100678418:;clean ;compile
+1652100687883:reload
+1652100690165:;clean ;compile
+1652100804844:calculators/run 100 20
+1652103673738:calculators/Test/run
+1652103714748:inspect calculators/Test/run
+1652124784428:;clean ;compile
+1652124826867:calculator/run 100 50 2
+1652124842099:calculators/run 100 50 2
+1652124907824:calculators/run 5000 5 10
+1652126122734:reload
+1652126538475:api/console
+1652126553151:reload
+1652126567375:api/console
+1652126594533:projects
+1652126618877:project api
+1652126687819:api/console
+1652126719918:reload
+1652126724700:api/console
+1652126801177:last api / update
+1652126954480:api/update
+1652127151688:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652127163059:api/console
+1652127330701:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652175276507:ls
+1652175283186:projects
+1652175289004:api/console
+1652177901379:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652178509570:test
+1652178530354:projects
+1652178534158:api/test
+1652178583094:projects
+1652178586226:api/test
+1652178724695:test
+1652178731502:inspect test
+1652178782693:reload
+1652178785207:inspect test
+1652178789157:api/test
+1652178811095:inspect api/test
+1652178968347:inspect test
+1652178973775:inspect api/test
+1652179082974:console
+1652179711716:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652179880130:reload
+1652179883936:clean
+1652179887671:test
+1652188197624:exit
+1652188233955:runMain help
+1652188237839:help runMain
+1652189748971:;reload ;calculators/run NetWorthMultiCurrency "100000 EUR,9000 USD" "59100 EUR,12200 USD"
+1652189769836:;reload ;calculators/runMain NetWorthMultiCurrency "100000 EUR,9000 USD" "59100 EUR,12200 USD"
+1652189890890:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652189891928:reload
+1652189905116:;reload ;calculators/runMain NetWorthMultiCurrency "100000 EUR,9000 USD" "59100 EUR,12200 USD"
+1652190028988:;reload ;calculators/run NetWorthMultiCurrency "100000 EUR,9000 USD" "59100 EUR,12200 USD"
+1652194224463:reload
+1652194805536:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_c/8m2533cx34nb0h4lhgr92wwh0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/darshildholakia/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/221.5080.210/IntelliJ IDEA CE.app.plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1652195003222:reload
+1652195007187:stage
+1652196230085:docker:publishLocal
+1652202224284:exit
